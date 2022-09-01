@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+#tokenSection {
+  display: none;
+}
+
+#deviceSection {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: none;
+}
+#searchResult {
+  margin-top: 10px;
+}
+#search {
+  margin-bottom: 10px;
+}
+
+.container {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+#albumImage {
+  width: 300px;
+  float: left;
+  margin: 20px;
+}
+
+#trackTitle {
+  font-size: 3em;
+}
+
+#trackArtist {
+  font-size: 2em;
+}
+
+.welcomeText {
+  font-size: 2em;
+}

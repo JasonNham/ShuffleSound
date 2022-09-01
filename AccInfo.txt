@@ -1,0 +1,24 @@
+Account Information
+
+Google:
+**Username:**
+shuffle.capstone@gmail.com
+
+**Password:**
+ShuffleMiami
+
+**Linked Phone**
+937 422 4231 
+
+
+**Domain**
+ShuffleSound.com
+
+**DB**
+MongoDB 
+Sign in with Google account
+
+db administrator
+admin 
+shuffledbadmin 0 -
+

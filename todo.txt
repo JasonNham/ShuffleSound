@@ -1,0 +1,62 @@
+[✅] Landing page
+[✅] Node Server 
+[✅] Express routing 
+[✅] Deploy server 
+	↳ Google cloud
+[⭐️] Finish API endpoints
+    [✅]↳ GET /api/getMusic/:authtoken 
+            ↳ Returns json music objects
+    [⭐️]↳ GET /api/updateUser/:authtoken 
+            ↳ Updates DB with algorithm based on in app song abstractions
+    [✅]↳ GET /api/userData/:authtoken
+            ↳ Adds a first time user with default values 
+    [✅]↳ GET /api/likeSong/:authtoken/:songURI
+            ↳ Adds a song to users likes list
+    [✅]↳ GET /api/dislikeSong/:authtoken/:songURI
+            ↳ Removes a song from users likes list
+    [✅]↳ GET /api/addToPlaylist/:authtoken/:songURI
+            ↳ Adds a song to users playlist
+[⭐️] Create database design/schema
+[✅] Link database
+	↳ MongoDB / Atlas host
+    ↳ Create Schema for user Data
+[✅] Create react native front end
+[✅] Create a first time page where users will select "Genres" to be preferred
+    ↳ Select Genres - Done 
+    ↳ Save Genres to DB
+    ↳ Login to spotify - Done
+    ↳ Display main page - Done
+[✅] Get auth token from Spotify from front end
+[✅] Connect front end to running backend
+[✅] Display songs
+[⭐️] Optimize feed from api
+[✅] Make Search screen 
+    ↳ Needs some redesigning
+[❌] Get new Icons for app
+    ↳ Meet with Hannah
+    ↳ Integrate icons
+[❌] Change app icon to remove text
+[❌] Make Liked Songs screen 
+[❌] Make Inbox screen
+[✅] Make profile screen
+    ↳ Needs some redesigning 
+[❌] Pause clock when song pauses, vice versa 
+[❌] Check if song is liked when rendered (liked ? red heart : white heart)
+
+
+Known Bugs: 
+[✅] Using bottom tab and coming back to feed/home page makes you press screen twice to actually pause music
+
+[✅] Scrolling sometimes gives a one time error about RNSound method
+
+[❌] Can swipe back to login page from home page
+
+[❌] Refresh token is never used, application just stops working until restarted and logged into again to gain new access token
+
+
+
+
+
+
+
+
